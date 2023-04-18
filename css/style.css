@@ -1,0 +1,11 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../images/header__backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 700;
+}
