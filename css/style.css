@@ -88,6 +88,9 @@ a {
 
 .header__social {
     padding: 70px 0 20px 65px;
+}
+
+.social {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -425,3 +428,17 @@ a {
     cursor: pointer;
 }
 
+.footer {
+    background-color: #21062A;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.footer__copy {
+    color: #fff;
+}
