@@ -368,6 +368,7 @@ a {
 
 .contacts__list {
     list-style: none;
+    padding: 0;
 }
 
 .contacts__item {
@@ -510,6 +511,28 @@ a {
     .header__social {
         padding-top: 30px;
     }
+
+    .contacts__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .contacts__list {
+        margin-bottom: 30px;
+    }
+
+    .contacts__input {
+        width: 100%;
+    }
+
+    .contacts__btn {
+        margin-top: 20px;
+    }
+
+    .contacts__title {
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -629,6 +652,11 @@ a {
 
     .carousel .slick-dots button {
         width: 10px;
+    }
+
+    .contacts__form {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
